@@ -1,0 +1,14 @@
+.todo-list {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-gap: 12px;
+  grid-auto-rows: 30px;
+  min-width: 220px;
+  
+  &__item {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    grid-gap: 24px;
+  }
+}

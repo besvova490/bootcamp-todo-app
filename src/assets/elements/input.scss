@@ -1,0 +1,14 @@
+.todo-input {
+  padding: 11px 16px;
+  width: 100%;
+  border: 2px solid #FFFFFF;
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #FFFFFF;
+  height: 40px;
+
+  &::placeholder {
+    color: #BDBDBD;
+  }
+}
